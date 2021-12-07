@@ -1,0 +1,64 @@
+
+.card{
+  background-color: #51556856;
+  color: #ffffff;
+}
+.input-field>label {
+  color: #ffffff;
+}
+#letra{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+#btnEnviar{
+    align-self: center;
+}
+
+
+@media only screen and (min-width:300px) { 
+    body {
+    background:rgb(150, 211, 206) !important
+  } #card{
+    height: auto;
+    width: auto;
+  }
+  }
+
+@media only screen and (min-width: 576px) { 
+    body {
+    background:rgb(113, 145, 194) !important
+  } #card{
+    height: auto;
+    width: auto;
+  }
+  }
+  
+  
+  @media only screen and (min-width: 768px) {
+     body {
+    background:rgb(175, 164, 216) !important
+    
+  } 
+  #conta{
+    height: 500px;
+    width: 900px;
+  }}
+  
+  
+  @media only screen and (min-width: 992px) { 
+    body {
+    background:rgb(204, 151, 214) !important
+  } #card{
+    height: auto;
+    width: auto;
+  }  }
+  
+  @media only screen and (min-width: 1200px) { 
+    body {
+    background:rgb(211, 129, 167) !important
+  }  
+  #card{
+    height: auto;
+    width: auto;
+  }
+}
